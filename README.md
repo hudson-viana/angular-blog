@@ -1,4 +1,24 @@
-# AngularBlog
+## What
+
+This is a repository of a blog that was developed using Angular, TypeScript, HTML, CSS, and JavaScript
+
+## Why
+
+These languages were chosen because the goals were: 
+
+- to apply the Problem-based learning (PBL) methodology (learning by actively engaging in real-world situations);
+- to improve front-end skills;
+- to create a Single Page Application (SPA) blog repository;
+
+## How
+
+- before () after ();
+
+## Who
+
+Originally created by professor Felipe Aguiar and edited/enhanced by me (Hudson Santos).
+
+## AngularBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
