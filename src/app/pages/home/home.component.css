@@ -1,9 +1,12 @@
-.container__articles{
+mat-grid-tile {
+  background-color: red;
+}
+/* .container__articles{
   margin-top: 30px;
 
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
+} */
 
 
