@@ -9,9 +9,8 @@ import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
-import {
-  MatGridListModule
-} from '@angular/material/grid-list'
+import {  MatGridListModule  } from '@angular/material/grid-list';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 @NgModule({
@@ -27,7 +26,8 @@ import {
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatGridListModule
+    MatGridListModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
