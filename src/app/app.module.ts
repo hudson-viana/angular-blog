@@ -8,8 +8,6 @@ import { CategoryNavbarComponent } from './layouts/category-navbar/category-navb
 import { FooterComponent } from './layouts/footer/footer.component';
 import { SingleCategoryComponent } from './pages/single-category/single-category.component';
 import { SinglePostsComponent } from './pages/single-posts/single-posts.component';
-import { TermsAndConditionComponent } from './pages/terms-and-condition/terms-and-condition.component';
-import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { PostCardComponent } from './layouts/post-card/post-card.component';
 import { HomeComponent } from './pages/home/home.component';
 
@@ -21,9 +19,7 @@ import { HomeComponent } from './pages/home/home.component';
     CategoryNavbarComponent,
     FooterComponent,
     SingleCategoryComponent,
-    SinglePostsComponent,
-    TermsAndConditionComponent,
-    ContactUsComponent,        
+    SinglePostsComponent,        
     PostCardComponent,
     HomeComponent
   ],
