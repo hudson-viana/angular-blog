@@ -1,37 +1,36 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
-import { MenuTitleComponent } from './components/menu-title/menu-title.component';
-import { BigCardComponent } from './components/big-card/big-card.component';
-import { SmallCardComponent } from './components/small-card/small-card.component';
+import { HeaderComponent } from './layouts/header/header.component';
+import { CategoryNavbarComponent } from './layouts/category-navbar/category-navbar.component';
+import { FooterComponent } from './layouts/footer/footer.component';
+import { SingleCategoryComponent } from './pages/single-category/single-category.component';
+import { SinglePostsComponent } from './pages/single-posts/single-posts.component';
+import { TermsAndConditionComponent } from './pages/terms-and-condition/terms-and-condition.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { PostCardComponent } from './layouts/post-card/post-card.component';
 import { HomeComponent } from './pages/home/home.component';
-import { ContentComponent } from './pages/content/content.component';
-import {  MatGridListModule  } from '@angular/material/grid-list';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatButtonModule} from '@angular/material/button';
-import {MatDividerModule} from '@angular/material/divider';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuBarComponent,
-    MenuTitleComponent,
-    BigCardComponent,
-    SmallCardComponent,
-    HomeComponent,
-    ContentComponent
+    HeaderComponent,
+    CategoryNavbarComponent,
+    FooterComponent,
+    SingleCategoryComponent,
+    SinglePostsComponent,
+    TermsAndConditionComponent,
+    ContactUsComponent,        
+    PostCardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    MatGridListModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatDividerModule
+    RouterModule,
+    AppRoutingModule    
   ],
   providers: [],
   bootstrap: [AppComponent]

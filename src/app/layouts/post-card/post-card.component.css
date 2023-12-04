@@ -1,0 +1,28 @@
+.card {
+    max-width: 300px;
+}
+
+img {
+    object-fit: cover;
+    height: 150px;
+}
+
+.app-body{
+    min-height: 85vh;
+}
+
+.categories {
+    margin-left: 10px;
+}
+
+.warning-color {
+    color: var(--warning-color);
+}
+
+small {
+    text-transform: uppercase;
+}
+
+.text-justify {
+    text-align: justify;
+}
