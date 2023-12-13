@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./single-posts.component.css']
 })
 export class SinglePostsComponent {
-
+  
 }

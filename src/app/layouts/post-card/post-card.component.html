@@ -1,15 +1,12 @@
 <div class="card shadow border border-0 rounded-4">
   <img
-    src="https://images.pexels.com/photos/33129/popcorn-movie-party-entertainment.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    [src]="imageUrl"
     alt="post-image"
     class="card-img-top"
   />
   <div class="card-body">
-    <small class="bg-light text-danger text-center">Action</small>
-    <small class="bg-light text-success text-center categories">Comedy</small>
-    <small class="bg-light text-center categories warning-color">Family</small>
-    <h3 class="mt-1">Title of the post</h3>
-    <p class="text-justify">Mauris convallis ex eu velit malesuada, vitae efficitur tortor hendrerit. Suspendisse ultrices ligula non lorem convallis placerat. Cras sit amet dui at leo facilisis pulvinar in non elit. </p>
-    <small class="text-primary">LAST UPDATED - NOV 25, 2023</small>
+    <h3 class="mt-1">{{ cardTitle }}</h3>
+    <p class="text-justify">{{ cardDescription }}</p>
+    <small class="text-primary">LAST UPDATED - {{ lastUpdated }}</small>
   </div>
 </div>
